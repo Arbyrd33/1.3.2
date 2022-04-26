@@ -76,3 +76,7 @@ select {
 
 
 /* base css starts here */
+
+html{
+    background-color: #FEFFFF;
+}
