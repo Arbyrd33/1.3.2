@@ -1,5 +1,5 @@
-/* #region css reset */ 
-/* css reset by picalil here: https://piccalil.li/blog/a-modern-css-reset/ */
+/* #region css reset by picalil */ 
+/*  sauce here: https://piccalil.li/blog/a-modern-css-reset/ */
 /* Box sizing rules */
 *,
 *::before,
@@ -91,21 +91,40 @@ strong{
 }
 h1{
   font-family: 'Chelsea Market', cursive;
-
-
+  font-size: 5rem;
+  text-align: center;
+  /* padding: 2rem; */
+}
+p{
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
 /* #endregion */
 
 /* #region navigation */
+
+
+a#plan{
+  background-color: #FF764E;
 }
+a#learn{
+  background-color: #5ED3EB;
+}
+a#cta{
+  background-color: #FFCD69;
+}
+
 .nav {
   height: 50%;
+  padding: 2% 19%;
 }
 .nav a{
     display: inline-block;
     padding: 1% 2% 1% 2%;
-    margin-top: 2%;
-    margin-bottom: 3%;
-    margin-left: 15.7%;
+    margin: 2% 6%;
+    /* min-width: 19%; */
+    width: 18rem;
 
     font-size: 2rem;
     text-align: center;
@@ -115,45 +134,113 @@ h1{
     border-radius: 2rem;
     text-decoration: none;
 }
+/* #endregion */
+/*#region top*/
+#welcome {
+  /* 
+  margin-top: 0;
+  */
+  /* padding: 2rem 0rem; */
+  margin: 3% 15%;
+  /* border: 1px solid red; */
+  height: 30rem;
+  width: 70%;
+}
+.box1 {
+  vertical-align: top;
+  display: inline-block;
+  /* border: 1px solid blue; */
+  width: 30rem;
+  max-height: 30rem;
+}
+.box2{
+  vertical-align: top;
+  display: inline-block;
+  padding: 0% 2%;
+  /* border: 1px solid blue; */
+  max-height: 30rem;
+  width: 60rem;
+  margin-left: 9%;
+  /* padding-bottom: 4rem;
+  margin-bottom: 4rem; */
+  /* padding-top: 2rem; */
+  /* height: 30rem; */
+}
+.box2 h1{
+  display: block;
+  margin-bottom:3rem;
+  /* border: 1px solid orange; */
+}
+.box2 p{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* border: 1px solid powderblue; */
+  /* margin-top: 6rem;
+  margin-bottom: 13rem;
+  padding-bottom: 8rem;
+   */
+}
 
-#learn{
+.left {
+  
+  /* border: 2px solid green; */
+  /* background-color: red; */
+  margin: 0px;
+  /* padding-left: 2rem; */
+  height: 30rem;
+  width: 35%;
+}
+.right {
+  display: inline-block;
+  /* border: 2px solid green; */
+  /* background-color: red; */
+  margin: 0px;
+  padding-left: 0;
+  max-height: 30rem;
+  max-width: 80rem;
+}
+#welcome img{
+  border-radius: 100%;
+  height: 30rem;
+  width: 30rem;
+}
+
+
+div#learn{
+  margin: 2rem 15rem;
   color: white;
   background-color: #DDB9A3;
 }
-a#plan{
-    background-color: #FF764E;
-}
-a#learn{
-    background-color: #5ED3EB;
-}
-a#cta{
-    background-color: #FFCD69;
-}
+/*#endregion*/
 
+
+/* #region camping information */
+#campinfo {
+  margin:  auto 30%;
+  font-size: 1rem;
+  margin-bottom: 10rem;
+}
+.landing {
+  /* margin-top: 2rem; */
+}
+.icons img {
+  max-height: 20rem;
+  margin: auto 32%;
+}
 
 /* #endregion */
 
-/*#region welcome*/
-.title {
-  display: inline-block;
-  height: 30em;
-}
-.title img{
-  border-radius: 100%;
-  width: 30em;
-}
-#right {
-  display: inline-block;
-}
 
-/*#endregion*/
-#welcome, div#learn, #campinfo {
-  margin: 10rem;
-}
-.landing {
-  margin-top: 2rem;
-}
-
-footer{
+footer {
   background-color: #F9E7DC; 
+}
+#valley{
+  max-height: 30rem;
+}
+#valley img {
+  max-height: 30rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 18%;
 }
