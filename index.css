@@ -1,0 +1,246 @@
+/* #region css reset by picalil */ 
+/*  sauce here: https://piccalil.li/blog/a-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+/* a:not([class]) {
+  text-decoration-skip-ink: auto;
+} */
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* #endregion */
+
+/* #region universal selectors */
+html{
+  margin: 0rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 62.5%;
+  color: #000001;
+  background-color: #FEFFFF;
+}
+strong{
+  font-weight: 500;
+}
+h1{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 5rem;
+  text-align: center;
+  /* padding: 2rem; */
+}
+p{
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+/* #endregion */
+
+/* #region navigation */
+
+
+a.plan{
+  background-color: #FF764E;
+}
+a.learn{
+  background-color: #5ED3EB;
+}
+a.cta{
+  background-color: #FFCD69;
+}
+
+.nav {
+  height: 50%;
+  padding: 2% 19%;
+}
+.nav a{
+    display: inline-block;
+    padding: 1% 2% 1% 2%;
+    margin: 2% 6%;
+    /* min-width: 19%; */
+    width: 18rem;
+
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+
+    border-radius: 2rem;
+    text-decoration: none;
+}
+/* #endregion */
+/*#region top*/
+#welcome {
+  /* 
+  margin-top: 0;
+  */
+  /* padding: 2rem 0rem; */
+  margin: 3% 15%;
+  /* border: 1px solid red; */
+  height: 30rem;
+  width: 70%;
+}
+.box1 {
+  vertical-align: top;
+  display: inline-block;
+  /* border: 1px solid blue; */
+  width: 30rem;
+  max-height: 30rem;
+}
+.box2{
+  vertical-align: top;
+  display: inline-block;
+  padding: 0% 2%;
+  /* border: 1px solid blue; */
+  max-height: 30rem;
+  width: 60rem;
+  margin-left: 9%;
+  /* padding-bottom: 4rem;
+  margin-bottom: 4rem; */
+  /* padding-top: 2rem; */
+  /* height: 30rem; */
+}
+.box2 h1{
+  display: block;
+  margin-bottom:3rem;
+  /* border: 1px solid orange; */
+}
+.box2 p{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* border: 1px solid powderblue; */
+  /* margin-top: 6rem;
+  margin-bottom: 13rem;
+  padding-bottom: 8rem;
+   */
+}
+
+.left {
+  
+  /* border: 2px solid green; */
+  /* background-color: red; */
+  margin: 0px;
+  /* padding-left: 2rem; */
+  height: 30rem;
+  width: 35%;
+}
+.right {
+  display: inline-block;
+  /* border: 2px solid green; */
+  /* background-color: red; */
+  margin: 0px;
+  padding-left: 0;
+  max-height: 30rem;
+  max-width: 80rem;
+}
+#welcome img{
+  border-radius: 100%;
+  height: 30rem;
+  width: 30rem;
+}
+
+
+div#learn{
+  margin: 2rem 15rem;
+  color: white;
+  background-color: #DDB9A3;
+  width: 79%;
+}
+/*#endregion*/
+
+
+/* #region camping information */
+#campinfo {
+  margin:  auto 30%;
+  font-size: 1rem;
+}
+div.icons {
+  padding-bottom: 12%;
+}
+.icons img {
+  max-height: 20rem;
+  margin: auto 32%;
+}
+
+/* #endregion */
+
+
+footer {
+  background-color: #F9E7DC; 
+}
+#valley{
+  max-height: 30rem;
+}
+#valley img {
+  max-height: 30rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 18%;
+}
