@@ -1,3 +1,4 @@
+/* #region css reset */ 
 /* css reset by picalil here: https://piccalil.li/blog/a-modern-css-reset/ */
 /* Box sizing rules */
 *,
@@ -74,9 +75,9 @@ select {
   }
 }
 
+/* #endregion */
 
-/* base css starts here */
-/* universal selector */
+/* #region universal selectors */
 html{
     font-family: 'Roboto Mono', monospace;
     font-weight: 100;
@@ -89,21 +90,37 @@ strong{
 }
 h1{
   font-family: 'Chelsea Market', cursive;
+
+
+/* #endregion */
+
+/* #region navigation */
 }
-a{
-    padding: 2%;
-    /* margin: 0 auto; */
+.nav {
+  height: 50%;
+}
+.nav a{
+    display: inline-block;
+    padding: 1% 2% 1% 2%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 15.7%;
 
     font-size: 2rem;
-    line-height: 100%;
+    text-align: center;
+    line-height: 2rem;
     color: white;
 
-    border-radius: 10%;
+    border-radius: 2rem;
     text-decoration: none;
 }
+/* #endregion */
 
-/* end of universals */
 .landing {
+
+}
+
+.nav {
 
 }
 
