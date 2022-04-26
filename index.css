@@ -220,10 +220,9 @@ div#learn{
 #campinfo {
   margin:  auto 30%;
   font-size: 1rem;
-  margin-bottom: 10rem;
 }
-.landing {
-  /* margin-top: 2rem; */
+div.icons {
+  padding-bottom: 12%;
 }
 .icons img {
   max-height: 20rem;
