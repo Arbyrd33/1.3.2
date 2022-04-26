@@ -79,11 +79,12 @@ select {
 
 /* #region universal selectors */
 html{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 100;
-    font-size: 62.5%;
-    color: #000001;
-    background-color: #FEFFFF;
+  margin: 0rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 62.5%;
+  color: #000001;
+  background-color: #FEFFFF;
 }
 strong{
   font-weight: 500;
@@ -114,15 +115,6 @@ h1{
     border-radius: 2rem;
     text-decoration: none;
 }
-/* #endregion */
-
-.landing {
-
-}
-
-.nav {
-
-}
 
 #learn{
   color: white;
@@ -138,8 +130,28 @@ a#cta{
     background-color: #FFCD69;
 }
 
-header {
-    margin: 0 auto
+
+/* #endregion */
+
+/*#region welcome*/
+.title {
+  display: inline-block;
+  height: 30em;
+}
+.title img{
+  border-radius: 100%;
+  width: 30em;
+}
+#right {
+  display: inline-block;
+}
+
+/*#endregion*/
+#welcome, div#learn, #campinfo {
+  margin: 10rem;
+}
+.landing {
+  margin-top: 2rem;
 }
 
 footer{
